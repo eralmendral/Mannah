@@ -11,7 +11,7 @@ COPY . .
 RUN go get -d -v ./...
 
 # Build 
-RUN go build -o main .
+RUN go build -o mserver .
 
 # Expose the Port
 EXPOSE 8000
